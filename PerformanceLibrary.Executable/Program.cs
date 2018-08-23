@@ -17,7 +17,7 @@ namespace PerformanceLibrary.Executable
             watch.Start();
             PerformanceLibrary.Class1.TightLoopConcatenate();
             watch.Stop();
-            Console.WriteLine($"Tme Elapsed: {watch.ElapsedMilliseconds}ms");
+            Console.WriteLine($"Time Elapsed: {watch.ElapsedMilliseconds}ms");
             Console.WriteLine("Press enter to close the app.");
             Console.ReadKey(true);
         }
